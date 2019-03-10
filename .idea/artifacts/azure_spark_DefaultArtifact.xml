@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="azure-spark_DefaultArtifact">
+    <output-path>$PROJECT_DIR$/out/artifacts/azure_spark_DefaultArtifact</output-path>
+    <root id="archive" name="default_artifact.jar">
+      <element id="module-output" name="scala-java-spark" />
+    </root>
+  </artifact>
+</component>
