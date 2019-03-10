@@ -22,6 +22,7 @@ package sample
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql._
 import org.apache.spark.sql.functions._
+import zwlib.ChronicPattern
 //import com.example.hello._
 
 /**

@@ -1,9 +1,8 @@
-package sample
+package zwlib
 
-import org.apache.spark.sql.expressions.MutableAggregationBuffer
-import org.apache.spark.sql.expressions.UserDefinedAggregateFunction
-import org.apache.spark.sql.{Row, RowFactory}
+import org.apache.spark.sql.expressions.{MutableAggregationBuffer, UserDefinedAggregateFunction}
 import org.apache.spark.sql.types.{StructField, _}
+import org.apache.spark.sql.{Row, RowFactory}
 
 import scala.collection.JavaConversions._
 import scala.collection.immutable.TreeMap
