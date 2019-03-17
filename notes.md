@@ -1,6 +1,7 @@
 
 ** Personal Notes **
-- 
+
+-
 ```scala 
 val dataset = Seq((0, "hello"), (1, "world")).toDF("id", "text") 
 ```
