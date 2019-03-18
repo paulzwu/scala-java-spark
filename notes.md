@@ -21,5 +21,6 @@ val ds = spark.read.load(f:_*)
 import sys.process._
 "ls /".!
 "hdfs dfs -ls /opt".!
+val outToString = "ls /".!!
 ```
 
