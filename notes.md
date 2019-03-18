@@ -7,7 +7,11 @@ val dataset = Seq((0, "hello"), (1, "world")).toDF("id", "text")
 ```
 - 
 ```scala
-ds.select("hour", "week_date,density".split(","):_*).show `
+ds.select("hour", "week_date,density".split(","):_*).show 
+def myshow (fields: String, ds: Dataset[Row]) = {
+  val ss = fields.split(",\s?")
+  ds.select(ss(0),ss.patch(0, Nil, 1):_*).show
+ }
 ```
 - 
 ```scala
